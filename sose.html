@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SOSE LUXE</title>
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%23000'/><text x='50' y='70' font-size='40' font-weight='bold' fill='%23fff' text-anchor='middle' font-family='serif'>S</text></svg>" type="image/svg+xml">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%23000'/><text x='50' y='70' font-size='40' font-weight='bold' fill='%23fff' text-anchor='middle'>SL</text></svg>">
     <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;500;700;900&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -13,7 +13,7 @@
     <header>
         <div class="header-content">
             <div class="logo-container">
-                <div class="logo-img"></div>
+                <img src="sose.jpg" alt="SOSE Logo" class="logo-img-actual">
                 <div class="logo">SOSE LUXE</div>
             </div>
             <nav>
@@ -37,15 +37,20 @@
 
 
     <section id="about" class="about">
-        <div class="about-content">
-            <h2 class="section-title">About SOSE LUXE</h2>
-            <p class="section-subtitle">Signature Craftsmanship</p>
-            <p>
-                SOSE LUXE is a luxury fashion design studio dedicated to creating timeless, elegant pieces that celebrate individuality and craftsmanship. Each design is carefully curated to combine contemporary aesthetics with classic elegance, using the finest materials and meticulous attention to detail.
-            </p>
-            <p>
-                Our philosophy centers on empowering individuals to express themselves through fashion. From bespoke custom creations to ready-to-wear collections, every piece tells a story of dedication, passion, and artistic vision.
-            </p>
+        <div class="about-content-wrapper">
+            <div class="about-text">
+                <h2 class="section-title">About SOSE LUXE</h2>
+                <p class="section-subtitle">Signature Craftsmanship</p>
+                <p>
+                    SOSE LUXE is a luxury fashion design studio dedicated to creating timeless, elegant pieces that celebrate individuality and craftsmanship. Each design is carefully curated to combine the finest materials with innovative techniques.
+                </p>
+                <p>
+                    Our philosophy centers on empowering individuals to express themselves through fashion. From bespoke custom creations to ready-to-wear collections, every piece tells a story of dedication to excellence.
+                </p>
+            </div>
+            <div class="about-image">
+                <img src="ceo.jpg" alt="CEO of SOSE LUXE" class="ceo-img">
+            </div>
         </div>
     </section>
 
@@ -120,10 +125,26 @@
                     <p class="footer-text">Crafted with luxury and elegance.</p>
                 </div>
                 <div class="footer-socials">
-                    <a href="https://instagram.com" class="footer-social-icon" title="Instagram">📷</a>
-                    <a href="https://pinterest.com" class="footer-social-icon" title="Pinterest">📌</a>
-                    <a href="https://tiktok.com" class="footer-social-icon" title="TikTok">🎬</a>
-                    <a href="https://twitter.com" class="footer-social-icon" title="Twitter">𝕏</a>
+                    <a href="https://instagram.com" class="footer-social-icon" title="Instagram">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.07 1.645.07 4.849 0 3.205-.012 3.584-.07 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zM5.838 12a6.162 6.162 0 1 1 12.324 0 6.162 6.162 0 0 1-12.324 0zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm4.965-10.322a1.44 1.44 0 1 1 2.881.001 1.44 1.44 0 0 1-2.881-.001z"/>
+                        </svg>
+                    </a>
+                    <a href="https://pinterest.com" class="footer-social-icon" title="Pinterest">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm0 19c-3.859 0-7-3.141-7-7s3.141-7 7-7 7 3.141 7 7-3.141 7-7 7zm0-12c-2.761 0-5 2.239-5 5s2.239 5 5 5 5-2.239 5-5-2.239-5-5-5zm0 8c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z"/>
+                        </svg>
+                    </a>
+                    <a href="https://tiktok.com" class="footer-social-icon" title="TikTok">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.68v13.67a2.4 2.4 0 1 1-2.4-2.4c.41 0 .74.04 1.1.13V9.41a6.7 6.7 0 0 0-1.02-.08C3.72 9.33 0 12.52 0 16.55s3.72 7.22 8.3 7.22c4.6 0 8.3-3.23 8.3-7.22V10.7c1.7 1.3 4 2.1 6.4 2.1v-3.66c-.87 0-1.7-.25-2.4-.65z"/>
+                        </svg>
+                    </a>
+                    <a href="https://twitter.com" class="footer-social-icon" title="Twitter">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2s9 5 20 5a9.5 9.5 0 00-9-5.5c4.75 2.25 7-7 7-7a10.6 10.6 0 01-9-5.5"/>
+                        </svg>
+                    </a>
                 </div>
             </div>
             <div class="footer-bottom">
